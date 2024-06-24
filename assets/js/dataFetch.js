@@ -14,6 +14,18 @@ console.log(usersInJson);
 const usersFromJson = JSON.parse(usersInJson);
 console.log(usersFromJson);
 
+let isCelsi = true;
+const btnCels = document.querySelector('.btnCels')
+btnCels.textContent = `Switch to ${isCelsi?'F':'C'}`
+
+btnCels.addEventListener('click',changeTemp)
+function changeTemp(){
+ isCelsi = !isCelsi;
+ console.log(isCelsi);
+ btnCels.textContent = `Switch to ${isCelsi?'F':'C'}`
+
+}
+
 const WEATHER_URL =
   "https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&current=temperature_2m,precipitation,wind_speed_10m&timezone=auto";
 //задає звідки прийдуть дані
