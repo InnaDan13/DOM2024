@@ -1,0 +1,62 @@
+
+
+.user-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.user-info {
+    padding: 20px;
+}
+
+.user-name {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.user-title {
+    color: #777;
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.user-description {
+    color: #555;
+    font-size: 1em;
+    margin: 15px 0 0;
+}
+
+button {
+    padding: 10px ;
+    margin: 10px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #db74e9;
+    border: none;
+    display: block;
+    border-radius: 5px;
+    cursor:default;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+button:hover {
+    background-color: #0be7b7;
+}
+
+button:active {
+    background-color: #004494;
+    transform: scale(0.98);
+}
+.heart{
+    display:inline;}
